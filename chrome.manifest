@@ -1,0 +1,7 @@
+content fireangular                 chrome/content/
+content fireangular-resources       chrome/resources/ contentaccessible=yes
+
+skin    fireangular classic/1.0     chrome/skin/classic/shared/
+skin    fireangular.sdk classic/1.0 node_modules/firebug.sdk/skin/classic/shared/
+
+locale  fireangular en-US           chrome/locale/en-US/

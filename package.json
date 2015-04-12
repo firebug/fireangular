@@ -1,0 +1,43 @@
+{
+  "title": "FireAngular",
+  "name": "fireangular",
+  "version": "0.0.1-zeta.1",
+  "id": "fireangular@alcacoop.it",
+  "description": "Firefox plugin for Angular development",
+  "main": "index.js",
+  "icon": "chrome://fireangular/skin/fireangular-icon.png",
+  "author": "Luca Greco (ALCA Societa' Cooperativa)",
+  "contributors": [
+    "Jan Odvarko (Mozilla Corp.)"
+  ],
+  "homepage": "https://github.com/rpl/fireangular/wiki",
+  "forum": "https://groups.google.com/forum/#!forum/firebug",
+  "engines": {
+    "firefox": ">=36.0"
+  },
+  "license": "BSD License",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rpl/fireangular.git"
+  },
+  "dependencies": {
+    "firebug.sdk": "0.5.5"
+  },
+  "bugs": {
+    "url": "https://github.com/rpl/fireangular/issues"
+  },
+  "preferences-branch": "firebug.fireangular",
+  "preferences": [{
+    "name": "AngularURL",
+    "title": "AngularURL",
+    "description": "",
+    "type": "string",
+    "value": "chrome://fireangular-resources/content/angular.js"
+  }, {
+    "name": "AngularURLTimeout",
+    "title": "AngularURLTimeout",
+    "description": "",
+    "type": "integer",
+    "value": 5000
+  }]
+}

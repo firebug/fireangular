@@ -1,0 +1,9 @@
+/* See license.txt for terms of usage */
+
+.fireAngularScopeData {
+  background: url("chrome://fireangular/skin/icon16.png");
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
