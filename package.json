@@ -2,15 +2,16 @@
   "title": "FireAngular",
   "name": "fireangular",
   "version": "0.0.1-zeta.1",
-  "id": "fireangular@alcacoop.it",
+  "id": "fireangular@getfirebug.com",
   "description": "Firefox plugin for Angular development",
   "main": "index.js",
   "icon": "chrome://fireangular/skin/fireangular-icon.png",
-  "author": "Luca Greco (ALCA Societa' Cooperativa)",
+  "author": "Firebug Working Group",
   "contributors": [
+    "Luca Greco (ALCA Societa' Cooperativa)",
     "Jan Odvarko (Mozilla Corp.)"
   ],
-  "homepage": "https://github.com/rpl/fireangular/wiki",
+  "homepage": "https://github.com/firebug/fireangular/wiki",
   "forum": "https://groups.google.com/forum/#!forum/firebug",
   "engines": {
     "firefox": ">=36.0"
@@ -18,13 +19,13 @@
   "license": "BSD License",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rpl/fireangular.git"
+    "url": "https://github.com/firebug/fireangular.git"
   },
   "dependencies": {
     "firebug.sdk": "0.5.5"
   },
   "bugs": {
-    "url": "https://github.com/rpl/fireangular/issues"
+    "url": "https://github.com/firebug/fireangular/issues"
   },
   "preferences-branch": "firebug.fireangular",
   "preferences": [{
