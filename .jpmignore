@@ -15,3 +15,6 @@
 
 # Existing packages
 *.xpi
+
+# dev dependencies packages
+/node_modules/jpm/

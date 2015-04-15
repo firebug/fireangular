@@ -28,17 +28,27 @@
     "url": "https://github.com/firebug/fireangular/issues"
   },
   "preferences-branch": "firebug.fireangular",
-  "preferences": [{
-    "name": "AngularURL",
-    "title": "AngularURL",
-    "description": "",
-    "type": "string",
-    "value": "chrome://fireangular-resources/content/angular.js"
-  }, {
-    "name": "AngularURLTimeout",
-    "title": "AngularURLTimeout",
-    "description": "",
-    "type": "integer",
-    "value": 5000
-  }]
+  "preferences": [
+    {
+      "name": "AngularURL",
+      "title": "AngularURL",
+      "description": "",
+      "type": "string",
+      "value": "chrome://fireangular-resources/content/angular.js"
+    },
+    {
+      "name": "AngularURLTimeout",
+      "title": "AngularURLTimeout",
+      "description": "",
+      "type": "integer",
+      "value": 5000
+    }
+  ],
+  "devDependencies": {
+    "jpm": "^1.0.0"
+  },
+  "scripts": {
+    "jpm-run": "jpm run ",
+    "jpm-xpi": "jpm xpi "
+  }
 }
