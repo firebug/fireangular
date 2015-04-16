@@ -1,6 +1,8 @@
 FireAngular 0.0.1-zeta.1
 ========================
 
+![](https://raw.githubusercontent.com/firebug/fireangular/master/docs/images/fireangular_banner.png)
+
 Firefox plugin for Angular development. Built on top of native
 developer tools in Firefox and based on the [firebug.sdk](firebug.sdk).
 
